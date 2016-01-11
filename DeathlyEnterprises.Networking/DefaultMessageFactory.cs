@@ -9,7 +9,7 @@ namespace DeathlyEnterprises.Networking
         IMessage CreateMessage<TMessage>(TMessage message);
     }
 
-    public class MessageFactory : IMessageFactory
+    public class DefaultMessageFactory : IMessageFactory
     {
         public IMessage CreateMessage<TMessage>(TMessage message)
         {
