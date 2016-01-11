@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="IMessage.cs" />
     <Compile Include="IMessageFactory.cs" />
-    <Compile Include="Message.cs" />
+    <Compile Include="DefaultMessage.cs" />
     <Compile Include="DefaultMessageFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

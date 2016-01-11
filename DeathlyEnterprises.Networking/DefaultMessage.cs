@@ -1,8 +1,8 @@
 ﻿namespace DeathlyEnterprises.Networking
 {
-    public class Message : IMessage
+    public class DefaultMessage : IMessage
     {
-        public Message(string messageType, string messageContents, int messageContentSize)
+        public DefaultMessage(string messageType, string messageContents, int messageContentSize)
         {
             MessageType = messageType;
             MessageContents = messageContents;
