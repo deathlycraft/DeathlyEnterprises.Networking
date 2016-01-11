@@ -1,12 +1,5 @@
 ﻿namespace DeathlyEnterprises.Networking
 {
-    public interface IMessage
-    {
-        string MessageType { get; }
-        string MessageContents { get; }
-        int MessageContentSize { get; }
-    }
-
     public class Message : IMessage
     {
         public Message(string messageType, string messageContents, int messageContentSize)
