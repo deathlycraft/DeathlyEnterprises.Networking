@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMessageFactory.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="DefaultMessageFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
