@@ -2,7 +2,7 @@
 {
     public class DefaultMessage : IMessage
     {
-        public DefaultMessage(string messageType, string messageContents, int messageContentSize)
+        public DefaultMessage(string messageType, byte[] messageContents, int messageContentSize)
         {
             MessageType = messageType;
             MessageContents = messageContents;
@@ -10,7 +10,7 @@
         }
 
         public string MessageType { get; }
-        public string MessageContents { get; }
+        public byte[] MessageContents { get; }
 
         public int MessageContentSize { get; }
     }

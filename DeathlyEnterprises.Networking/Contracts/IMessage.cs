@@ -3,7 +3,7 @@
     public interface IMessage
     {
         string MessageType { get; }
-        string MessageContents { get; }
+        byte[] MessageContents { get; }
         int MessageContentSize { get; }
     }
 }
