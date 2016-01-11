@@ -30,8 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DeathlyEnterprises.Core, Version=1.0.13.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DeathlyEnterprises.Core.1.0.13.0\lib\net451\DeathlyEnterprises.Core.dll</HintPath>
+    <Reference Include="DeathlyEnterprises.Core, Version=1.0.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DeathlyEnterprises.Core.1.0.14.0\lib\net451\DeathlyEnterprises.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
