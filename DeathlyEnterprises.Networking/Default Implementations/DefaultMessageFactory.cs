@@ -1,5 +1,4 @@
-﻿using System;
-using DeathlyEnterprises.Core.Serialization;
+﻿using DeathlyEnterprises.Core.Serialization;
 
 namespace DeathlyEnterprises.Networking
 {
