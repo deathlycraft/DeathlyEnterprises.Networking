@@ -1,4 +1,5 @@
-﻿using DeathlyEnterprises.Core.Serialization;
+﻿using System;
+using DeathlyEnterprises.Core.Serialization;
 
 namespace DeathlyEnterprises.Networking
 {
@@ -13,7 +14,7 @@ namespace DeathlyEnterprises.Networking
 
         public IMessage CreateMessage<TMessage>(TMessage message)
         {
-            const string messageType = nameof(TMessage);
+            var messageType = message.GetType().Name;
             var serializedMessage = _serializer.Serialize(message);
 
             return new DefaultMessage(messageType, serializedMessage, serializedMessage.Length);
