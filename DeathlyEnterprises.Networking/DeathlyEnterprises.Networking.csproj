@@ -44,10 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IClient.cs" />
     <Compile Include="Contracts\IMessage.cs" />
     <Compile Include="Contracts\IMessageFactory.cs" />
     <Compile Include="Default Implementations\DefaultMessage.cs" />
     <Compile Include="Default Implementations\DefaultMessageFactory.cs" />
+    <Compile Include="Contracts\IServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
